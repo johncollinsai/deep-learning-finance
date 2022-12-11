@@ -13,11 +13,11 @@ spec:
         run: dlf
     spec:
       containers:
-      - image: asia-southeast1-docker.pkg.dev/johncollins/johncollins/deep-learning-finance:v0.1.0
+      - image: asia-southeast1-docker.pkg.dev/johncollins/johncollins/dl-finance:v0.1.3
         imagePullPolicy: IfNotPresent
         name: dlf
         ports:
-        - containerPort: 8090
+        - containerPort: 8080
           protocol: TCP
 
 

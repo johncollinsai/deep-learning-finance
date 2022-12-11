@@ -5,9 +5,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 8090
+  - port: 8080
     protocol: TCP
-    targetPort: 8090
+    targetPort: 8080
   selector:
     run: dlf
   type: NodePort
