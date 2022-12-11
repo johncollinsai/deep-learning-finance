@@ -1,4 +1,4 @@
-FROM python:3.8.5
+FROM python:slim
 
 WORKDIR /home/posts/deep-learning-finance
 
