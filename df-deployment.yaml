@@ -13,7 +13,7 @@ spec:
         run: dlf
     spec:
       containers:
-      - image: asia-southeast1-docker.pkg.dev/johncollins/johncollins/dl-finance:v0.1.3
+      - image: asia-southeast1-docker.pkg.dev/johncollins/johncollins/dlf:v0.1.4
         imagePullPolicy: IfNotPresent
         name: dlf
         ports:
