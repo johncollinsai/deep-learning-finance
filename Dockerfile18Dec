@@ -16,5 +16,3 @@ ENV PORT 8080
 # but put jimustafa's ENTRYPOINT into boot.sh
 ENTRYPOINT ["./boot.sh"]
 
-
-
