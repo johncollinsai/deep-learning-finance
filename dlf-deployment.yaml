@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dlf
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      run: dlf
+  template:
+    metadata:
+      labels:
+        run: dlf
+    spec:
+      containers:
+      - image: asia-southeast1-docker.pkg.dev/johncollins/johncollins/johncollins:v0.15.0
+        imagePullPolicy: IfNotPresent
+        name: dlf
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+
+
